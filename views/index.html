@@ -45,7 +45,7 @@
         $('#convertForm').submit(function(event) {
           event.preventDefault();
           $.ajax({
-            url: '/api/convert',
+            url: 'Metric-converter-QAA/api/convert',
             type: 'get',
             data: $('#convertForm').serialize(),
             success: function(data) {
